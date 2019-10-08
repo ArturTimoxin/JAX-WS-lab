@@ -5,7 +5,8 @@
  */
 package servicepack;
 import javax.jws.WebService;
-@WebService(endpointInterface = "servicepack.Var2Interface")
+
+@WebService(endpointInterface = "servicepack.Var2Interface", serviceName = "Var2SimpleService")
 public class Var2SimpleService implements Var2Interface {
     
     private static final int max = 10;
